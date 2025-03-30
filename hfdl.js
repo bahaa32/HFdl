@@ -29,7 +29,7 @@ const visitedFileUrls = new Set();
 const activeDownloads = new Set();
 
 // Max concurrent downloads
-const MAX_CONCURRENT_DOWNLOADS = 5;
+const MAX_CONCURRENT_DOWNLOADS = 24;
 
 // Function to normalize URLs for better deduplication
 function normalizeUrl(inputUrl) {
